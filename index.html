@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/png">
+    <title>Calculadora JS</title>
+</head>
+
+<body>
+    <h1 class="titulo"></h1>
+    <section >
+        <div class="sinal__numeros">
+            <h3>Primeiro número:</h3>
+            <h3>Segundo número:</h3>
+        </div>
+        <div>
+            <input type="number" min="-100" max="100" class="container__input__primeiro">
+            <input type="number" min="-100" max="100" class="container__input__segundo">
+        </div>
+    </section>
+    <button type="submit" onclick="resolverOperacoes()" class="button">Resolva!</button>
+    <section>
+        <p class="resultado__somar"></p>
+        <p class="resultado__subtrair"></p>
+        <p class="resultado__multiplicar"></p>
+        <p class="resultado__dividir"></p>
+    </section>
+
+    <script src="calculadora.js" defer></script>
+</body>
+
+</html>

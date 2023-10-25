@@ -1,0 +1,54 @@
+:root {
+    --cor-fundo: #302727;
+    --cor-botoes: #BA2D2D;
+    --cor-texto: #FAE0DB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-size: 2rem;
+    color: var(--cor-texto);
+    font-family: 'Roboto';
+    text-align: center;
+    margin: 4% 20vw;
+}
+
+h1{
+    padding: 2rem;
+}
+
+.sinal__numeros {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+input, button{
+    padding: 1rem 0; 
+    border-radius: .5rem;
+    margin: 2rem 10rem;
+    font-size: 2rem;
+    font-family: 'Roboto';
+    background: var(--cor-botoes);
+    border: none;
+    box-shadow: none;
+    color: var(--cor-texto);
+    font-weight: 900;
+    text-align: center;
+}
+
+button{
+    padding: 1.25rem; 
+    background: var(--cor-texto);
+    color: var(--cor-fundo);
+    font-weight: 400;
+}
+
+p{
+    padding: .5rem;
+}
