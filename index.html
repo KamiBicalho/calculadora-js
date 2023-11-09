@@ -21,16 +21,16 @@
             <h3>Segundo número:</h3>
         </div>
         <div>
-            <input type="number" min="-100" max="100" class="container__input__primeiro">
-            <input type="number" min="-100" max="100" class="container__input__segundo">
+            <input type="number" min="-100" max="100" class="container__input__primeiro" id="primeiro-numero" placeholder="">
+            <input type="number" min="-100" max="100" class="container__input__segundo" id="segundo-numero" placeholder="">
         </div>
     </section>
     <button type="submit" onclick="resolverOperacoes()" class="button">Resolva!</button>
     <section>
         <p class="resultado__somar"></p>
-        <p class="resultado__subtrair"></p>
+        <p class="resultado__subtrair" id="subtrair"></p>
         <p class="resultado__multiplicar"></p>
-        <p class="resultado__dividir"></p>
+        <p class="resultado__dividir" id="dividir"></p>
     </section>
 
     <script src="calculadora.js" defer></script>
